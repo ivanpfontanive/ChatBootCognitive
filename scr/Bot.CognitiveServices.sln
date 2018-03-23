@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.CognitiveServices", "Bot.CognitiveServices\Bot.CognitiveServices.csproj", "{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Cognitive.QnaMaker", "Bot.Cognitive.QnaMaker\Bot.Cognitive.QnaMaker.csproj", "{47748ED3-7CD2-478A-90B5-47AD003B66BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Cognitive.Luis", "Bot.Cognitive.Luis\Bot.Cognitive.Luis.csproj", "{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47748ED3-7CD2-478A-90B5-47AD003B66BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47748ED3-7CD2-478A-90B5-47AD003B66BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47748ED3-7CD2-478A-90B5-47AD003B66BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47748ED3-7CD2-478A-90B5-47AD003B66BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}.Release|Any CPU.ActiveCfg = Release|Any CPU

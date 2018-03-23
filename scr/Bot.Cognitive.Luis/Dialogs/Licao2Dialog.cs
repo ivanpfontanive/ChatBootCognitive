@@ -10,7 +10,9 @@ namespace Bot.CognitiveServices.Dialogs
     [Serializable]
     public class Licao2Dialog : LuisDialog<object>
     {
-        public Licao2Dialog(ILuisService service) : base(service) { }
+        public Licao2Dialog(ILuisService service) : base(service)
+        {
+        }
 
         /// <summary>
         /// Caso a intenção não seja reconhecida.
