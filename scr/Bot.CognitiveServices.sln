@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Cognitive.QnaMaker", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Cognitive.Luis", "Bot.Cognitive.Luis\Bot.Cognitive.Luis.csproj", "{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Cognitive.Vision", "Bot.Cognitive.Vision\Bot.Cognitive.Vision.csproj", "{B880E83F-AFB8-467A-9C3B-58891A28625B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B045F16-E2A6-4DCF-B00B-9EF0227AF004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B880E83F-AFB8-467A-9C3B-58891A28625B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B880E83F-AFB8-467A-9C3B-58891A28625B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B880E83F-AFB8-467A-9C3B-58891A28625B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B880E83F-AFB8-467A-9C3B-58891A28625B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
