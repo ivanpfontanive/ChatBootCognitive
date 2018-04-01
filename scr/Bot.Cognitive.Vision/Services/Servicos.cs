@@ -117,7 +117,7 @@ namespace Bot.Cognitive.Vision.Services
             var emotion = emotions.Predictions.OrderByDescending(c => c.Probability).FirstOrDefault();
 
             return $"Eu identifiquei um objeto do tipo **{emotion?.Tag}** na imagem, com " +
-                   $"**{emotion?.Probability}**% de acertividade.";
+                   $"**{Math.Round((emotion.Probability * 100), 2)}**% de acertividade.";
         }
 
         public async Task<string> AnaliseDetalhadaAsync(Uri query)
